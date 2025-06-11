@@ -576,16 +576,6 @@ li {
     line-height: 1.8;
     padding-top: 1.25rem;
   }
-  .nav-secondary:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 2.25rem;
-    right: 2.25rem;
-    height: 1px;
-    background: #d9d8d9;
-  }
 }
 .nav-secondary .nav-link {
   padding: .59375rem 1rem;
@@ -620,11 +610,11 @@ li {
 .navbar-toggler .navbar-toggler-icon {
   width: 30px;
   height: 21px;
-  background: url("/application/themes/providence/img/icon-hamburger.svg") no-repeat;
+  background: url("../../../../themes/providence/img/icon-hamburger.svg") no-repeat;
   background-size: contain;
 }
 .navbar-toggler-open .navbar-toggler .navbar-toggler-icon {
-  background: url("/application/themes/providence/img/icon-hamburger-close.svg") no-repeat;
+  background: url("../../../../themes/providence/img/icon-hamburger-close.svg") no-repeat;
 }
 .navbar-toggler-close {
   vertical-align: middle;
