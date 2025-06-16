@@ -1,3 +1,15 @@
 .custom-bg {
-     background-color: #4cc9ab;
+    background-color: #4cc9ab;
+}
+
+.hero img {
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .hero img {
+        height: calc(30vh);
+        width: 100%;
+    }
 }
