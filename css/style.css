@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gilda+Display&display=swap');
+
+/* Hero */
+#hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../images/hero.webp');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#hero h1 {
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFF;
+}
+#hero h2 {
+    font-family: "Gilda Display", serif;
+    font-style: normal;
+    letter-spacing: .8rem;
+    color: #FFF;
+}
+#hero h5 {
+    letter-spacing: .8rem;
+    color: #FFF;
+}
+#hero img {width: 100px;}
+#hero a {letter-spacing: .3rem;}
+
+/* Banner */
+#banner {background-color: #00CCAE;}
+#banner h2 {
+    font-family: "Gilda Display", serif;
+    font-style: normal;
+}
+#banner img {width: 80%;}
+
+/* Amenities */
+#amenities h2 {
+    font-family: "Gilda Display", serif;
+    font-style: normal;
+    color: #00CCAE;
+}
+#amenities .card {border: 1px solid #00CCAE;}
+
+/* Suites */
+#suites h2 {color: #00CCAE;}
+#suites .col-md-5 p {margin-top: 250px;}
+#suites .card {border: 1px solid #00CCAE;}
+
+/* Home */
+#home {background-color: #00CCAE;}
+#home .card {
+    background-color: #00CCAE;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+/* Feedback */
+#feedback {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/feedback.webp');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feedback h2 {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF; 
+}
+
+/* Footer */
+#footer {
+    background-color: #00CCAE;
+}
+
+@media (max-width: 992px) {
+    #banner img {width: 100%;}
+}
