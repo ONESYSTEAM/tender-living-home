@@ -34,8 +34,8 @@
                     <p>We&rsquo;re a modern, state-licensed, wheelchair-accessible Adult Foster Care home nestled in the beautiful Millwood neighborhood of Kalamazoo. Just minutes from downtown, our quiet, accessible location offers all-private rooms in a newly renovated, home-like setting where safety, dignity, and comfort come first.</p>
                     <p>But Tender Living Home is more than just a place to live—it&rsquo;s a place to belong. We care for adults who need extra support while maintaining their independence, delivering personalized care with compassion, respect, and heart.</p>
                     <p>Explore our home, meet our team, and discover what makes Tender Living Home feel like family. Here&rsquo;s to new beginnings and meaningful connections.</p>
-                    <a href="#" class="text-dark fs-4 text-decoration-none">[Schedule a Tour]</a>
-                    <a href="#" class="text-dark fs-4 text-decoration-none">[Contact Us]</a>
+                    <button class="btn btn-light me-2" data-bs-toggle="modal" data-bs-target="#scheduleModal">Schedule a Tour</button>
+                    <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Us</button>
                 </div>
                 <div class="col-md-5 d-flex align-items-center justify-content-center mt-3">
                     <img src="./images/banner.png" alt="">
@@ -232,6 +232,68 @@
             </div>
         </div>
     </section>
+
+    
+    <!-- Schedule Modal -->
+    <div class="modal fade" id="scheduleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Schedule a Tour</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="https://formspree.io/f/xldnwybv" method="POST">
+                    <div class="modal-body">
+                        <div class="form-floating mb-2">
+                            <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                            <label for="date">Date</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="time" class="form-control" id="time" name="time" placeholder="Time">
+                            <label for="time">Time</label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="https://formspree.io/f/xwpbboap" method="POST">
+                    <div class="modal-body">
+                        <div class="form-floating mb-2">
+                            <input type="text" class="form-control" id="text" name="name" placeholder="Name">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-floating mb-2">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-floating mb-2">
+                            <input type="number" class="form-control" id="mobileNumber" name="mobile_number" placeholder="Mobile Number">
+                            <label for="mobileNumber">Mobile Number</label>
+                        </div>
+                        <textarea class="form-control" style="height: 200px;" name="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
