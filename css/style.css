@@ -44,7 +44,10 @@
 #amenities .card {border: 1px solid #00CCAE;}
 
 /* Suites */
-#suites h2 {color: #00CCAE;}
+#suites h2 {
+    color: #00CCAE;
+    font-family: "Cinzel", serif;
+}
 #suites .col-md-5 p {margin-top: 250px;}
 #suites .card {border: 1px solid #00CCAE;}
 
