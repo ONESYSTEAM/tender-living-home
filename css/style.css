@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 /* Hero */
 #hero {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../images/hero.webp');
+    background-image: linear-gradient(rgba(50, 50, 50, 0.6), rgba(50, 50, 50, 0.6)), url('../images/hero.webp');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 #hero h1 {
-  font-family: "Gilda Display", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #FFF;
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
 }
 #hero h2 {
-    font-family: "Gilda Display", serif;
+    font-family: "Cinzel", serif;
     font-style: normal;
     letter-spacing: .8rem;
     color: #FFF;
@@ -30,14 +30,14 @@
 /* Banner */
 #banner {background-color: #00CCAE;}
 #banner h2 {
-    font-family: "Gilda Display", serif;
+    font-family: "Cinzel", serif;
     font-style: normal;
 }
 #banner img {width: 80%;}
 
 /* Amenities */
 #amenities h2 {
-    font-family: "Gilda Display", serif;
+    font-family: "Cinzel", serif;
     font-style: normal;
     color: #00CCAE;
 }
@@ -65,7 +65,7 @@
     background-position: center;
 }
 #feedback h2 {
-    font-family: "Gilda Display", serif;
+    font-family: "Cinzel", serif;
     font-weight: 400;
     font-style: normal;
     color: #FFF; 
@@ -88,7 +88,7 @@
 }
 
 #footer h2 {
-    font-family: "Gilda Display", serif;
+    font-family: "Cinzel", serif;
     font-weight: 400;
     font-style: normal;
     color: #FFF; 
@@ -96,4 +96,5 @@
 
 @media (max-width: 992px) {
     #banner img {width: 100%;}
+    #suites .col-md-5 p {margin-top: 60px;}
 }
